@@ -1,0 +1,9 @@
+E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Shared\bin\Release\netstandard2.1\Admin.Shared.deps.json
+E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Shared\bin\Release\netstandard2.1\Admin.Shared.dll
+E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Shared\bin\Release\netstandard2.1\Admin.Shared.pdb
+E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Shared\obj\Release\netstandard2.1\Admin.Shared.csprojAssemblyReference.cache
+E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Shared\obj\Release\netstandard2.1\Admin.Shared.AssemblyInfoInputs.cache
+E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Shared\obj\Release\netstandard2.1\Admin.Shared.AssemblyInfo.cs
+E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Shared\obj\Release\netstandard2.1\Admin.Shared.csproj.CoreCompileInputs.cache
+E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Shared\obj\Release\netstandard2.1\Admin.Shared.dll
+E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Shared\obj\Release\netstandard2.1\Admin.Shared.pdb
