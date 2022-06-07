@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="E:\Louise Ann\Documents\IT-CAPSTONE41\Admin\Admin\Admin\Client\bin\Release\netstandard2.1\wwwroot\" />
+</StaticWebAssets>
