@@ -1,0 +1,102 @@
+﻿@page "/customer/add"
+@page "/customer/edit/{custID}"
+@inherits AddEditCustomerModel
+
+<h3>@Title Customer</h3>
+<hr />
+
+<EditForm Model="@cust" OnValidSubmit="SaveCustomer">
+    <DataAnnotationsValidator />
+    <div class="form-group row">
+        <label class="control-label col-md-10">ID</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_id" />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_id)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-10">First Name</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_fname" />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_fname)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-10">Last Name</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_lname" />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_lname)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-10">Gender</label>
+        <div class="col-md-4">
+            <select class="form-control" @bind="cust.cust_gender">
+                <option>-- Select Gender --</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_gender)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-10">Birth Date</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_birthDate" />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_birthDate)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-10">Phone No.</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_phoneNum" />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_phoneNum)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-10">Email</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_email" />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_email)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-10">Status</label>
+        <div class="col-md-4">
+            <select class="form-control" @bind="cust.cust_status">
+                <option>-- Select Status --</option>
+                <option>Free</option>
+                <option>Premium</option>
+            </select>
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_status)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-10">No. of Reservations</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_numOfReservations" />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_numOfReservations)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-10">Password</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_password" />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_password)" />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button class="btn btn-light" @onclick="Cancel">Cancel</button>
+    </div>
+</EditForm>

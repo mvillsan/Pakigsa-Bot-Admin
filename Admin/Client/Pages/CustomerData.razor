@@ -1,0 +1,76 @@
+﻿@page "/customerrecords"
+@inherits CustomerDataModel
+
+<h1>Customers</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <a href="/customer/add" class="btn btn-primary" role="button">
+            <i class="fa fa-user-plus"></i>
+            Add Customer
+        </a>
+    </div>
+    <div class="input-group col-md-4 offset-md-4">
+        <input type="text" class="form-control" placeholder="Search customer by name" @bind="SearchString" />
+        <div class="input-group-append">
+            <button class="btn btn-info" @onclick="SearchCustomer">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+</div>
+<br />
+
+@if (custList == null)
+{
+    <p><em>Loading...</em></p>
+}
+
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Gender</th>
+                <th>Birth Date</th>
+                <th>Phone No.</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th>No. of Reservations</th>
+                <th>Password</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cust in custList)
+            {
+                <tr>
+                    <td>@cust.cust_id</td>
+                    <td>@cust.cust_fname</td>
+                    <td>@cust.cust_lname</td>
+                    <td>@cust.cust_gender</td>
+                    <td>@cust.cust_birthDate</td>
+                    <td>@cust.cust_phoneNum</td>
+                    <td>@cust.cust_email</td>
+                    <td>@cust.cust_status</td>
+                    <td>@cust.cust_numOfReservations</td>
+                    <td>@cust.cust_password</td>
+                    <td>@cust.cust_image</td>
+                    <td>
+                        <a href="/customer/edit/@cust.cust_id" class="btn btn-outline-dark" role="button">
+                            <i class="fa fa-pencil-square-o"></i>
+                            Edit
+                        </a>
+                        <a href="/customer/delete/@cust.cust_id" class="btn btn-outline-danger" role="button">
+                            <i class="fa fa-trash-square-o"></i>
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

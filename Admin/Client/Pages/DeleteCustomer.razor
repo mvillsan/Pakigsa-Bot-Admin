@@ -1,0 +1,93 @@
+﻿@page "/customer/delete/{custID}"
+@inherits DeleteCustomerModel
+
+<h3>@Title</h3>
+<hr/>
+
+<EditForm Model="@cust" OnValidSubmit="DeleteCustomer">
+    <DataAnnotationsValidator />
+    <div class="form-group row">
+        <label class="control-label col-md-12">ID</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_id" disabled />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_id)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12">First Name</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_fname" disabled />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_fname)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12">Last Name</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_lname" disabled />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_lname)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12">Gender</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_gender" disabled />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_gender)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12" placeholder="dd/mm/yyyy">Birth Date</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_birthDate" disabled />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_birthDate)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12">Phone No.</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_phoneNum" disabled />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_phoneNum)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12">Email</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_email" disabled />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_email)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12">Status</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_status" disabled/>
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_status)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12">No. of Reservations</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_numOfReservations" disabled />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_numOfReservations)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12">Password</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="cust.cust_password" disabled />
+        </div>
+        <ValidationMessage For="@(()=>cust.cust_password)" />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Delete</button>
+        <button class="btn btn-light" @onclick="Cancel">Cancel</button>
+    </div>
+</EditForm>
