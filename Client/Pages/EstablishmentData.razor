@@ -1,0 +1,74 @@
+﻿@page "/establishmentrecords"
+@inherits EstablishmentDataModel
+
+<h1>Establishments Data</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <a href="/establishment/add" class="btn btn-primary" role="button">
+            <i class="fa fa-user-plus"></i>
+            Add Establishment
+        </a>
+    </div>
+    <div class="input-group col-md-4 offset-md-4">
+        <input type="text" class="form-control" placeholder="Search establishment by name" @bind="SearchString" />
+        <div class="input-group-append">
+            <button class="btn btn-info" @onclick="SearchEstablishment">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+</div>
+<br />
+
+@if (estList == null)
+{
+    <p><em>Loading...</em></p>
+}
+
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Address</th>
+                <th>Phone No.</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th>No. of Reservations</th>
+                <th>Password</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var est in estList)
+            {
+                <tr>
+                    <td>@est.est_id</td>
+                    <td>@est.est_Name</td>
+                    <td>@est.est_Type</td>
+                    <td>@est.est_address</td>
+                    <td>@est.est_phoneNum</td>
+                    <td>@est.est_email</td>
+                    <td>@est.est_status</td>
+                    <td>@est.est_numOfReservation</td>
+                    <td>@est.est_password</td>
+                    <td>@est.est_image</td>
+                    <td>
+                        <a href="/establishment/edit/@est.est_id" class="btn btn-outline-dark" role="button">
+                            <i class="fa fa-pencil-square-o"></i>
+                            Edit
+                        </a>
+                        <a href="/establishment/delete/@est.est_id" class="btn btn-outline-danger" role="button">
+                            <i class="fa fa-trash-square-o"></i>
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
