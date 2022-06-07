@@ -1,0 +1,294 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\J6ZSWZq9inUMW2JaDbFXL7GH-MzzgjM3NxeGGMOvxWo=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Admin.Client.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Admin.Client.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\RtSJI6hQONO9j4M0Q2dVWbkKqX93ZE9PKsSW-kqScW4=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Admin.Shared.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Admin.Shared.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\CpduzrXKQhWRO9BTqtnVdsJGmbEJ_i3TrlQHgHz1yAg=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Api.CommonProtos.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Api.CommonProtos.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Fwja6scLqUyQLVr9D9vViu79QYiy2vQzV0NGQ5UMXKU=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Api.Gax.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Api.Gax.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Unbol3XXLpMqcCxXbjDDA1PXSpcApIHzpJA9U_60Xpg=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Api.Gax.Grpc.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Api.Gax.Grpc.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\sNBfQ_sgQezBzXiE7OgUgqZrf6LINxOMtW-o5npRGCA=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Api.Gax.Grpc.GrpcCore.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Api.Gax.Grpc.GrpcCore.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\95o41juBnZIgNhrjALFj51fwWVKFJz-hZxn5Ve5L6-I=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Apis.Auth.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Apis.Auth.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\0EkcMjBIULg4gEMsSAwBWULdsg0xm-RbWiRE-VcpBCE=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Apis.Auth.PlatformServices.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Apis.Auth.PlatformServices.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\B6qCm4gB3Gb1_XBrGykjDXoUUhxrCT3_lIdSA8v0rp0=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Apis.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Apis.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6JipmAn31awB5Ak7LueknqQL00cl1uOSQwExHop6cvk=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Apis.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Apis.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\HoZPFfOZ13_CsQNNKvMZEhZP8Xjkl9eTLMdIMOiXH-0=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Cloud.Firestore.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Cloud.Firestore.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\F6XgXN4V3tNkLnSeVGk7TTp02V9TZeaDqynO_VZgrMo=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Cloud.Firestore.V1.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Cloud.Firestore.V1.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\PLJBiSdFwXibHpLFbhAwmGpIqv1jSxe9trOwp6gaxeY=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.LongRunning.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.LongRunning.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8RE1IOB5T6VbyMBMcR8jPjQK8uT_kZuq_mIwFWUbdwM=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Google.Protobuf.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Google.Protobuf.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\bKjwzcPPQEwzNRLU3Qqydflna8SVt_cI3o42Ky7i1j8=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Grpc.Auth.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Auth.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\nxQG2l46QHqknkB2vLQqee68HDNLvUME49UvFKZKbRA=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Grpc.Core.Api.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Core.Api.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\R9MpSmAiQcLuwIXJWCUVAPbCvm4bcOVBfhDBZwrbgrI=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Grpc.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\5K44C18K7lTlTGdyC12pDZ7lDNTaHflETE2vcfR_m70=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\WcPtVoPGjz_illxp990_54qN2_qU7_SZCF1C74ut014=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\NoiKHISVF5yiTuLtbJclvPJuB15OxWXCCMr_otsgh3M=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3PcetrhHWzMnOJxuuxpccWqqaymTc3bSRlUBVAMqfKg=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\jzHgXWAvWMkKIGFjZoT84tbe72E_H7CvTr-Dryh4QPs=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\iTVL_ULGSxaS_AuMdO14ndgH9Y30rK5aRZNbHuGLc3M=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\gGHUIB5Urxp2_g0Wm9SD_oeJyzvWeNdiS1t6V8V9wmA=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\TVCBpcBzuSb2NrNRJJxLcyQk9oPbbKgbXXI-8VqQPhc=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\f-ywTvoYTbxC9pp76Kv3hc4TpVrxpFK66HIHbMo-peU=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6B5xU7A3UCWrg7OWGI4B_-mTe8zBl9kN8zgAeZdy4oY=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mUqR7oOQXhIUxDCIZwBEO8m1RtN1gwiAuSkAPPY7bFM=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\MBxEGF4HgD5pjSSL40tFPUjeMqZbJGt0VD9ksmClavQ=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\j3jJlB-Zmb29s20sIEDobSHZPfD6KVpccvCzfhvTApQ=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Options.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\OlFhK2z61wrUKDwEycGz7uRx5ziabxojPpb1zuH4Nhg=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3cbvJEo8k8VJVQwyEZWWQ6yGRFQW8-219DaOnmsX3e4=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zV-OfJNfNsG404X30Pwkdymdh1KmZpTVEmG-JNFVc-k=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\7dlGiiawPvFTjcAdmqzPEGjvz16sY7QqFG6s5bGQ3mY=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Mono.Security.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Mono.Security.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\X3b6WfbV_FdFrbQcBuaiu3CYSEUtJrOpw4QyLROZ8D8=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\mscorlib.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\I5NWb7oJmzm_0haZAgC6ndW-2YaJ0rIz0JOYeU-nenQ=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Newtonsoft.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Newtonsoft.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6N5Y29F05iiU_36ulmmS487c19nhY0WUDhs7ZzeJoYw=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Collections.Immutable.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.Immutable.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\m84uFzrPcXWorK04yFBIcWO7vCFmPhGREhTf4DeEEco=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.ComponentModel.DataAnnotations.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\XXiZH_Ds_ua2p5_HTooepm2K00eIp9WWfMSE40W-Isk=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\dpiVv8PKePvT1w0OFhodm1exaX4spMHH-JpNukYpDUY=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Data.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\x82KBX4xelNrM_vwK6hvFvaZG0LHU3uVFsoIQi3sPP8=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SRxfjv-ulZWjnteH0fOEb0_w0Y3iSGbDnU6Fzcz6b1o=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Linq.Async.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Linq.Async.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\NmRmmLVRL_Xsoc5l-TVTmfoQ0Gdk_v7PEaB96J-H2E8=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\vJYa9Nxxc5Iz0Y9Fwr09M3zh2-XUHIf5F0JoxxGtXDw=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\RiXe_6POuAdh9EFhod4bFkx1QTvBRJKqMrqgOJBOjx0=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UuFRSKfYvPs_-WUE7NOB52dDZJXZeVMawglP_JsOavM=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Numerics.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\QU8Effs_qDNeB4x_k44IeW3hVAnmG40nNDlu6izd_U0=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\TcK4NH_GFbvdQKMV_qg8wnOsoA55VZACKkgTcoaKEEs=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.Serialization.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Serialization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\nGz0k0uo4HLpDK1wTA3pQ9c3dxKE-nZojNHbB-rdvr4=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Encodings.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\VR0lp40013Geci084Bz7P-z4lux0_KbeP-1vcxfxwf8=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8Sny1IUIIYPK4SxlOFrv5HCxGuaaPplxBPDg_U-RzBc=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\DHMAWbS9hlxttgfEVbtAxQxX46L0mFEpYWssCHKd0oU=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.Linq.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.Linq.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\hUPFhhFhjsF45py4XO8ilN9yofjjA577z9u3LXhgQ7s=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\linker\\WebAssembly.Bindings.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Bindings.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "C:\\Users\\Louise Ann\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.3.2.0.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.3.2.0.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "C:\\Users\\Louise Ann\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.timezones.dat",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.timezones.dat.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "C:\\Users\\Louise Ann\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.wasm",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.wasm.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash",
+      "Source": "C:\\Users\\Louise Ann\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.build\\3.2.1\\tools\\blazor\\blazor.webassembly.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\NYQU7XDsP0_sAH8eI7k-kRULgSMhhcYjXL7A_yj21fM=.hash",
+      "Source": "E:\\Louise Ann\\Documents\\IT-CAPSTONE41\\Admin\\Admin\\Admin\\Client\\obj\\Release\\netstandard2.1\\blazor\\blazor.boot.json",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
+    }
+  ]
+}
